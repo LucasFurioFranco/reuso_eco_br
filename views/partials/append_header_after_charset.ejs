@@ -3,3 +3,8 @@
     <script>
 window.sys_data = <%- JSON.stringify(sys_data, null, 2) %>
     </script>
+
+    <script>
+      /*For dev mode*/
+window._mock_db = <%- JSON.stringify(sys_data, null, 2) %>
+    </script>
